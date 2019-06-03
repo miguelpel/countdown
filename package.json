@@ -1,0 +1,30 @@
+{
+  "name": "countdown-timer",
+  "version": "1.0.0",
+  "description": "test app for deploying react component to npm",
+  "main": "dist/countdown.min.js",
+  "scripts": {
+    "build": "rollup -c -o dist/countdown.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelpel/countdown.git"
+  },
+  "keywords": [],
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.2",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  }
+}
